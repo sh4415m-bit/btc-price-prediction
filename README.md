@@ -32,14 +32,6 @@ pip install -r requirements.txt
 jupyter notebook notebooks/Deep_learning_GP_predicting_bitcoin_prices_v4.ipynb
 ```
 
-## How to compile the report
-
-```bash
-cd report
-pdflatex Report_V3.tex
-pdflatex Report_V3.tex   # second pass for references and TOC
-```
-
 ## Method overview
 
 ![Pipeline](report/fig_pipeline_overall.png)
