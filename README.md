@@ -34,8 +34,6 @@ jupyter notebook notebooks/Deep_learning_GP_predicting_bitcoin_prices_v4.ipynb
 
 ## Method overview
 
-![Pipeline](report/fig_pipeline_overall.png)
-
 The pipeline applies stationary feature engineering (log returns, scale-invariant technical indicators, halving-cycle encoding) before fitting a leak-free StandardScaler on training rows only. Four deep learning architectures are trained under an identical protocol (AdamW + Huber loss + cosine annealing) and combined through two ensemble strategies. Evaluation includes a comprehensive metric suite, walk-forward validation across 20 folds, Diebold–Mariano significance testing, feature-group ablation, and Monte Carlo Dropout uncertainty quantification.
 
 ## References
